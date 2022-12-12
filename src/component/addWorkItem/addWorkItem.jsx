@@ -5,6 +5,7 @@ export const AddWorkItem = () => {
   const [userInput, setUserInput] = useState("");
   const [list, setList] = useState([]);
 
+  console.log(event.currentTarget.value);
   const AddTodo = (todo) => {
     const newTodo = {
       id: Math.random(),
